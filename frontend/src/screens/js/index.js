@@ -1,10 +1,7 @@
 import $ from 'jquery';
 
 var $messages = $('.messages-content');
-var serverResponse = "wala";
 
-
-var suggession;
 var msg;
 //speech reco
 try {

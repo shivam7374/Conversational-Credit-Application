@@ -31,24 +31,10 @@ export default function ShippingAddressScreen(props) {
   return (
     <div>
       <CheckoutSteps step1 step2></CheckoutSteps>
-      {/* <div>
-          <h1>Shipping Address</h1>
-          </div> */}
-        {/* <Link to="/shippingconversational"><button >
-            Proceed with Conversational Method
-      </button></Link> */}
-      
+           
      
       <form className="form" onSubmit={submitHandler}>
-      <div>
-      <h1>Chatbot Form Filling</h1>
-    </div>
-      <iframe
-      allow="microphone;"
-    width="580"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/962f27f9-6797-4aa3-aa9c-53fa188dd92c">
-    </iframe>
+      
     <div>
           <h1> Manual Form Filling </h1>
     </div>
