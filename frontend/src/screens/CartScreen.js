@@ -27,6 +27,9 @@ export default function CartScreen(props) {
   const checkoutHandler = () => {
     props.history.push('/signin?redirect=shipping');
   };
+  const checkoutHandler_conversational= () => {
+    props.history.push('/signin?redirect=shipping_conersational');
+  };
   return (
     
     <div classNameName="row top">
@@ -102,10 +105,22 @@ export default function CartScreen(props) {
                 className="btn-cart"
                 disabled={cartItems.length === 0}
               >
-                Proceed to Checkout
+                Proceed to Checkout with Manual App
               </button>
               
-            </li></center>
+            </li>
+            <li><button
+                type="button"
+                onClick={checkoutHandler_conversational}
+                // classNameName="primary block"
+                className="btn-cart"
+                disabled={cartItems.length === 0}
+              >
+                Proceed to Checkout with Conversational App
+              </button>
+
+            </li>
+            </center>
           </ul>
         </div>
       </div>
