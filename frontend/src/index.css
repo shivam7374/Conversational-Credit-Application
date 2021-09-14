@@ -1,5 +1,6 @@
 html {
 	font-size: 62.5%;
+
 	box-sizing: border-box;
 }
 body {
@@ -74,9 +75,9 @@ button {
 	-moz-osx-font-smoothing: grayscale;
 }
 button {
-	color: white;
 	background-color: #f8f8f8;
 	cursor: pointer;
+	color: white;
 }
 input:hover,
 select:hover,
@@ -261,8 +262,8 @@ img.large {
 	padding: 0.5rem;
 }
 .table button {
-	color: black;
 	margin: 0 0.2rem;
+	color: black;
 }
 /* Search */
 .search button {
