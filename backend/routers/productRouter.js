@@ -3,6 +3,7 @@ import expressAsyncHandler from 'express-async-handler';
 import data from '../data.js';
 import Product from '../models/productModel.js';
 import { isAdmin, isAuth, isSellerOrAdmin } from '../utils.js';
+import {authSchema_add_product} from '../schema_validation/schema_validation.js';
 
 const productRouter = express.Router();
 
@@ -44,6 +45,8 @@ productRouter.post(
   isAuth,
   isSellerOrAdmin,
   expressAsyncHandler(async (req, res) => {
+     // const result = await authSchema_add_product.validateAsync(req.body)
+    // console.log(result);
     const product = new Product({
       name: 'sample name ' + Date.now(),
       seller: req.user._id,
@@ -67,6 +70,8 @@ productRouter.put(
   expressAsyncHandler(async (req, res) => {
     const productId = req.params.id;
     const product = await Product.findById(productId);
+    // const result = await authSchema_add_product.validateAsync(req.body)
+    // console.log("result");
     if (product) {
       product.name = req.body.name;
       product.price = req.body.price;

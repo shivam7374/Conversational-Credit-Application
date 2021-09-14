@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/shivam7374/All-In-ONE#readme",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "actions-on-google": "^3.0.0",
     "bcrypt": "^5.0.0",
     "bcryptjs": "^2.4.3",
