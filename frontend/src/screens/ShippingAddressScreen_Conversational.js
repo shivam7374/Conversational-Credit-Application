@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { saveShippingAddress } from '../actions/cartActions';
-import CheckoutSteps from '../components/CheckoutSteps';
+import CheckoutSteps_conversational from '../components/CheckoutSteps_conversational';
 import { BrowserRouter, Link, Route } from 'react-router-dom';
 
 
@@ -30,7 +30,7 @@ export default function ShippingAddressScreen(props) {
   };
   return (
     <div>
-      <CheckoutSteps step1 step2></CheckoutSteps>
+      <CheckoutSteps_conversational step1 step2></CheckoutSteps_conversational>
       {/* <div>
           <h1>Shipping Address</h1>
           </div> */}
