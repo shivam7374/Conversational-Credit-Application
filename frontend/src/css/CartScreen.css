@@ -39,6 +39,13 @@
 	background-color: #2874f0;
 	width: 80%;
 }
+.btn-cart-delete {
+	background-color: #2874f0;
+}
+.btn-cart-details {
+	color: white !important;
+	background-color: #2874f0;
+}
 .subtot-cart {
 	font-size: 170%;
 }
