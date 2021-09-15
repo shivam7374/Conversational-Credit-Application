@@ -44,7 +44,7 @@ export default function CartScreen(props) {
             <div className="row container-ps">
             {cartItems.map((item) => (
               <li className=" card-cart " key={item.product}>
-                  <div className="col-1">
+                  <center><div className="col-1">
                     <img
                       src={item.image}
                       alt={item.name}
@@ -81,7 +81,7 @@ export default function CartScreen(props) {
                       Delete
                     </button>
                   </div>
-                  </div>
+                  </div></center>
                 
               </li>
             ))}
