@@ -75,6 +75,7 @@ export default function CartScreen(props) {
                   &nbsp;&nbsp;&nbsp;&nbsp;
                     <button
                       type="button"
+                      className="btn-cart-delete"
                       onClick={() => removeFromCartHandler(item.product)}
                     >
                       Delete
