@@ -26,11 +26,11 @@ export default function ShippingAddressScreen(props) {
     dispatch(
       saveShippingAddress({ fullName, address, city, postalCode, country })
     );
-    props.history.push('/payment');
+    props.history.push('/placeorder');
   };
   return (
     <div>
-      <CheckoutSteps_conversational step1 step2></CheckoutSteps_conversational>
+      <CheckoutSteps_conversational step1 step2 ></CheckoutSteps_conversational>
       {/* <div>
           <h1>Shipping Address</h1>
           </div> */}

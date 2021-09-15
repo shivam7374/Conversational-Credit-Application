@@ -8,7 +8,6 @@ import CartScreen from './screens/CartScreen';
 import HomeScreen from './screens/HomeScreen';
 import OrderHistoryScreen from './screens/OrderHistoryScreen';
 import OrderScreen from './screens/OrderScreen';
-import PaymentMethodScreen from './screens/PaymentMethodScreen';
 import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import ProductListScreen from './screens/ProductListScreen';
 import ProductScreen from './screens/ProductScreen';
@@ -133,7 +132,6 @@ function App()
           <Route path="/register" component={RegisterScreen}></Route>
           <Route path="/shipping" component={ShippingAddressScreen}></Route>
           <Route path="/shipping_conersational" component={ShippingAddressScreen_Conversational}></Route>
-          <Route path="/payment" component={PaymentMethodScreen}></Route>
           <Route path="/placeorder" component={PlaceOrderScreen}></Route>
           <Route path="/order/:id" component={OrderScreen}></Route>
           <Route path="/orderhistory" component={OrderHistoryScreen}></Route>
