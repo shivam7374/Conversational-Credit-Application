@@ -42,7 +42,14 @@ export default function OrderScreen(props) {
       script.src = `https://www.paypal.com/sdk/js?client-id=${data}`;
       script.async = true;
       script.onload = () => {
+        
         setSdkReady(true);
+        setTimeout(
+          function(){
+            alert("Order Placed Successfully !");
+            }
+          ,5000 /// milliseconds = 10 seconds
+        );
       };
       document.body.appendChild(script);
     };
