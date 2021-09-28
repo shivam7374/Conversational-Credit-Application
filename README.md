@@ -30,6 +30,12 @@ In this digital era customer expects an interactive and dynamically powered conv
 
 [Click Here to Read Presentation](https://docs.google.com/presentation/d/1oeTpHmInYzAwg8SPfrO8btXZJ15s6YE9VCzDP5LhDC0/edit#slide=id.p1) 
 
+
+[Click Here to Read Documentation](https://docs.google.com/document/d/1lGbkD5AGvDvuplFuRVsThm1AIIHGpgQnIsLZvaFesz0/edit) 
+
+
+[Click Here to Read Presentation](https://docs.google.com/presentation/d/1oeTpHmInYzAwg8SPfrO8btXZJ15s6YE9VCzDP5LhDC0/edit#slide=id.p1) 
+
 ### Built With
 
 - [Bootstrap](https://getbootstrap.com)
