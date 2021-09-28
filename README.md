@@ -1,7 +1,7 @@
 <!-- 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url] -->
-[![Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+<!-- [![Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-) -->
 
 
  <h2 align="center">Please Read Me  </h2>
@@ -22,16 +22,16 @@ In this digital era customer expects an interactive and dynamically powered conv
 
 ## Website Demo Video
 
-[Click Here to Watch Video]() 
+[Click Here to Watch Video](https://drive.google.com/file/d/1uP5MAQvNUrPwII2tj7QF85thzH3t9pF2/view?usp=sharing) 
 
 ### Built With
 
 - [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
-- [dialogeflow](https://cloud.google.com/dialogflow)
-- [react](https://reactjs.org/)
-- [redux](https://redux.js.org/)
-- [mongoDB](https://www.mongodb.com/)
+- [jQuery](https://jquery.com)
+- [Dialogflow](https://cloud.google.com/dialogflow)
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [MongoDB](https://www.mongodb.com/)
 
 
 ## How to Run this Website
