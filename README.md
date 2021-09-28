@@ -20,9 +20,15 @@
 In this digital era customer expects an interactive and dynamically powered conversational user experience for typical form-filling  environment in spite of the regular data inputs such as survey/feedback forms, payment methods.
 
 
-## Website Demo Video
+## Important Links
 
 [Click Here to Watch Video](https://drive.google.com/file/d/1uP5MAQvNUrPwII2tj7QF85thzH3t9pF2/view?usp=sharing) 
+
+
+[Click Here to Read Documentation](https://docs.google.com/document/d/1lGbkD5AGvDvuplFuRVsThm1AIIHGpgQnIsLZvaFesz0/edit) 
+
+
+[Click Here to Read Presentation](https://docs.google.com/presentation/d/1oeTpHmInYzAwg8SPfrO8btXZJ15s6YE9VCzDP5LhDC0/edit#slide=id.p1) 
 
 ### Built With
 
